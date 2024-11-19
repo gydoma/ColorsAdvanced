@@ -1,0 +1,89 @@
+body{
+    background-color: #1a1a3a;
+    font-family: "Lucida Console", Monaco, monospace;
+    color: white;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+hr{
+    width: 80%;
+    margin: 1rem auto 8rem auto;
+}
+h1{
+    font-size: 2.5rem;
+    padding: 2.5rem;
+    text-align: center;
+}
+
+.card {
+    background-color: #4a4a6a;
+    padding: 2rem;
+    border-radius: 1rem;
+
+}
+
+.colorContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+    gap: 3rem;
+}
+
+#whatIsThisColor {
+
+}
+#meaning {
+    background-color: #fff;
+    color: #f00;
+    font-size: 2rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 12rem;
+    height: 10rem;
+    border-radius: 1rem;
+}
+
+#color {
+    background-color: #fff;
+    color: #00f;
+    font-size: 2rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 12rem;
+    height: 10rem;
+    border-radius: 1rem;
+}
+
+
+
+.reaction {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    gap: 1rem;
+}
+
+.check {
+}
+
+.cross {
+}
+#whatIsThisColor{
+
+}
+#color{
+
+}
